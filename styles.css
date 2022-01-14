@@ -87,7 +87,7 @@ ul {
 .cat-pic {
     width: 200px;
     height: 200px;
-    border: 4px solid rgb(81, 81, 255);
+    border: 4px solid rgb(101, 101, 250);
     border-radius: 8px;
 }
 
@@ -113,4 +113,35 @@ ul {
 
 .section-two p {
     color: rgb(116, 114, 114);
+}
+
+
+/* SECTION THREE */
+
+.align-three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    width: 650px;
+    font-style: italic;
+}
+
+.quote-author {
+    color: #1F2937;
+    margin-top: 10px;
 }
