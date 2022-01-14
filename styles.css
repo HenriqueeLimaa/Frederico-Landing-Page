@@ -4,6 +4,17 @@ body {
     flex-direction: column;
 }
 
+button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 12px;
+    width: 110px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 h1 {
     font-size: 48px;
     color: #F9FAF8;
@@ -19,7 +30,7 @@ p, a {
     color: #E5E7EB;
 }
 
-ul {
+ul, a {
     list-style: none;
     text-decoration: none;
 }
@@ -39,12 +50,16 @@ ul {
 
 .left {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    padding-left: 200px;
 }
 
 .right {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    padding-right: 110px;
 }
 
 .right ul {
